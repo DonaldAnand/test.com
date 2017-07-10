@@ -1,0 +1,50 @@
+this.disclosed = true;
+if(this.external && this.hostContainer)
+{
+  function onMessageFunc( stringArray )
+  {
+    var myUrl = stringArray;
+try{
+if (myUrl == "print")
+{
+// get the printParams object of the default printer
+var pp = this.myDoc.getPrintParams();
+// set some properties
+pp.interactive = pp.constants.interactionLevel.full;
+// print
+this.myDoc.print(pp);
+}
+else if (myUrl == "download")
+{
+app.execMenuItem("SaveAs", this.myDoc);
+}
+else
+{
+this.myDoc.submitForm({
+cURL: myUrl,
+cSubmitAs: "PDF"});
+}
+}
+catch(e){app.alert(e.message);}
+  }
+
+  function onErrorFunc( e )
+  {
+app.alert(e.toString());
+  }
+  
+  try
+  {
+     if(!this.hostContainer.messageHandler)
+       this.hostContainer.messageHandler = new Object();
+  
+     this.hostContainer.messageHandler.myDoc = this;
+     this.hostContainer.messageHandler.onMessage = onMessageFunc;
+     this.hostContainer.messageHandler.onError = onErrorFunc;
+     this.hostContainer.messageHandler.onDisclose = function(){return true;};
+//HostContainerDisclosurePolicy.SameOriginPolicy;
+//app.alert("Browser Message Handlers setup");
+    
+  }catch(e){app.alert(e.toString());};
+  
+} 
