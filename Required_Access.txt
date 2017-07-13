@@ -1,0 +1,61 @@
+
+Commercial Operation Awards :
+Code access has to be updated in TFS.
+we have database access for DEV. 
+Action to be taken:
+Need Latest code from client.
+PROD access has to be given by Client.
+
+eAbbvie:
+Action to be taken:
+Need access for the folder for Devaraj, Prabhu, Vijaykumar & Gomathi:  \\wa02037p\e-AbbVie\Text_Files
+Database access has to be provided by client.
+
+GitHub:
+Action to be taken:
+Devaraj, Prabhu, Vijaykumar & Gomathi - Have to send Github User account name, 
+Email ID provided to create this account and IP address to Balaji to get access from Steve.
+
+PPD US Internal Websites:
+Action to be taken:
+MKS has to be installed in Virtual Machine by raising SNOW ticket. All users.
+Virtual Machine - for all users
+A-Dash Account - Ticket has to be raised with the link :
+https://idm.abbvienet.com/identity   
+
+Duopa DuoConnect:
+Our DL has to be updated with "Duopa_IT_Support@abbvie.com"
+UBC access has to be given for Devaraj, Prabhu, Vijaykumar & Gomathi.
+
+
+RxAbbvie:
+Need production server path access for all team members. We need to contact HP Middleware Team.
+
+PPD Field Personnel Roster:
+All details like code access has to be provided by client/Balaji.
+
+
+HCPro, CCD, AE Reporting Tool, Humira Ecosystem, REMY portal & Brand API:
+Karthik needs to confirm whom to have production access.
+Need TFS access for team members except Karthik, Vijay & Dhilip.
+A-Dash account is mandatory.
+
+
+Compass, ePASS:
+Training has to be completed by Devaraj, Prabhu, Vijaykumar & Gomathi.
+Telescope Admin (Staging & TRN) access has to be provided to rest of the team.
+North plains - JIRA access has to be raised for Devaraj, Prabhu, Vijaykumar & Gomathi.
+A-Dash access has to be provided.
+Prod link access has to be provided to all team members.
+
+
+PIP, DUOPA, SAMI Home, PROTool:
+Code access has to be provided for Prabhu. 
+Production related access has to be checked with Mahesh(Balaji)
+Need production DB access for all the appplications.
+SAMI Home admin access has to be provided for QA and PROD.
+
+
+OPENDOOR:
+Code access has to be provided for Prabhu. 
+Production related access has to be checked with Mahesh(Balaji)
